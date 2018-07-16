@@ -1,0 +1,182 @@
+body {
+    background: url(../images/wave.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+body::after {
+    background: url(../images/waves.jpg);
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+  
+/*my Name*/
+h1 {
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    background-color: black;
+    width: 230px;
+    height: 20px;
+    color: white;
+    font-size: 25px;
+    padding: 25px;
+    margin:   -25px 0px 0px 0px;
+    text-align: center;
+}
+/*navbar*/
+.navbar {
+    height: 20px;
+    
+}
+/*Buttons*/
+.buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+    margin: 50px 10px 0px 0px;
+}
+/*style for the buttons*/
+a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-family: 'Amatic SC', cursive;
+}
+/*Header*/
+.header {
+    position: fixed;
+    top:0;
+    left:0;
+    font-family: Per;
+    background-color: white;
+    width: 100%;
+    height: 20px;
+    padding: 25px;
+    margin: 22px 0px 0px 0px;
+}
+
+/*pic of me*/
+#bio-image {
+    float: left;
+    padding: 15px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 2000;
+    opacity: 100;
+}
+/*index: about me*/
+.AboutMe {
+    position: fixed;
+    clear: both;
+    padding: 130px;
+    margin: 125px 0px 20px 175px;
+    font-family: 'Poiret One', cursive;
+    line-height: 17px;
+    width: 50%;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, .7);
+    
+     
+}
+
+/*Portfolio Page*/
+
+/* Header*/
+h2 {
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
+/*Portfolio: Titles*/
+.titles {
+    width: 60%;
+    height: 500px;
+    padding: 40px;
+    margin: 130px 0px 70px 200px;
+    background-color: white; 
+    opacity: 0.7;
+    filter: alpha(opacity=70); 
+}
+
+/*Hangman*/
+
+/*Image*/
+
+/*Game*/
+
+/*Image*/
+
+/*Trivia*/
+
+/*Image*/
+
+/*Rutgers*/
+
+/*Image*/
+
+/*Rock*/
+
+/*Image*/
+
+/*Contact Page*/
+/*Forms: Box 1*/
+.box1 {
+    width: 75%;
+    margin: 200px 0px 0px 140px; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .7);
+}
+/*Header*/
+h2 {
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+}
+/*First & Last name box*/
+input {
+    width: 50%;
+    padding: 2px 3px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+/*Message Form Box*/
+input[type=t] {
+    width: 90%;
+    height: 100px;
+    padding: 12px 20px;
+    margin: 8px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+
+/*Footer*/
+.footer {
+    position: fixed;
+    bottom: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    width: 100%;
+    height: 2px;
+    margin: 15px 0px 10px -8px;
+    text-align: center;
+    padding: 18px;
+    color: whitesmoke
+}

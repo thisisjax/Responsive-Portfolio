@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-make webpage responsiv
+# Basic-Portfolio
+Jacqueline Demers
