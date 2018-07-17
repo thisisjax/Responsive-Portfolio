@@ -88,6 +88,112 @@ a {
 }
 
 /*Portfolio Page*/
+#wrapper {
+    width: 960px;
+    height: 600px;
+    /* padding: 10px; */
+    margin: 0px auto 0px auto;
+}
+.container {
+    background-color: rgba(255, 255, 255, .7);
+    margin: 125px auto 0px auto;
+    width: 960px;
+
+}
+/*First*/
+.first {
+    position: relative;
+    margin: auto;
+}
+.first img {
+    width: 30%;
+}
+.wordgames {
+    position: absolute;
+    top: 60%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 24px;
+    width: 30%;
+}
+/*Second*/
+.second {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.second img {
+    width: 30%;
+}
+.rpg {
+    position: absolute;
+    top: 60%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 24px;
+    width: 30%;
+}
+/*Third*/
+.third {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.third img {
+    width: 30%;
+}
+.trivia {
+    position: absolute;
+    top: 60%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 24px; 
+    width: 30%;
+}
+/*Fourth*/
+.fourth {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.fourth img {
+    width: 30%;
+}
+.rutgers {
+    position: absolute;
+    top: 60%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 24px;
+    width: 30%;
+}
+/*Fifth*/
+.fifth {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.fifth img {
+    width: 30%;
+}
+.rock {
+    position: absolute;
+    top: 60%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Shadows Into Light Two', cursive;   
+    width: 30%;
+}
 
 /* Header*/
 h2 {
@@ -114,26 +220,6 @@ hr {
     opacity: 0.7;
     filter: alpha(opacity=70); 
 }
-
-/*Hangman*/
-
-/*Image*/
-
-/*Game*/
-
-/*Image*/
-
-/*Trivia*/
-
-/*Image*/
-
-/*Rutgers*/
-
-/*Image*/
-
-/*Rock*/
-
-/*Image*/
 
 /*Contact Page*/
 /*Forms: Box 1*/
@@ -179,4 +265,21 @@ input[type=t] {
     text-align: center;
     padding: 18px;
     color: whitesmoke
+}
+
+/*Media Query*/
+@media screen and (max-width: 959px) {
+    #wrapper {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 640px) {
+    #wrapper {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 320px) {
+    #wrapper {
+        width: 320px;
+    }
 }
