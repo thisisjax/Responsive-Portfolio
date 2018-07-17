@@ -88,111 +88,50 @@ a {
 }
 
 /*Portfolio Page*/
-#wrapper {
+#main-container {
+    background-color: rgba(255, 255, 255, .7);
     width: 960px;
     height: 600px;
-    /* padding: 10px; */
-    margin: 0px auto 0px auto;
+    margin: 150px 0px 0px 200px;
 }
-.container {
-    background-color: rgba(255, 255, 255, .7);
-    margin: 125px auto 0px auto;
-    width: 960px;
-
-}
-/*First*/
-.first {
+.work {
     position: relative;
-    margin: auto;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
 }
-.first img {
-    width: 30%;
+  
+.work:nth-child(even) {
+    margin-right: 40px;
 }
-.wordgames {
+  
+.work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+}
+  
+.work h3 {
     position: absolute;
-    top: 60%;
-    background-color: black;
-    color: white;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
     text-align: center;
-    font-family: 'Shadows Into Light Two', cursive;
-    font-size: 24px;
-    width: 30%;
+    background: #4aaaa5;
+    border-bottom: 0;
 }
-/*Second*/
-.second {
-    position: relative;
-    width: 90%;
-    margin: 0 auto;
-}
-.second img {
-    width: 30%;
-}
-.rpg {
-    position: absolute;
-    top: 60%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-family: 'Shadows Into Light Two', cursive;
-    font-size: 24px;
-    width: 30%;
-}
-/*Third*/
-.third {
-    position: relative;
-    width: 90%;
-    margin: 0 auto;
-}
-.third img {
-    width: 30%;
-}
-.trivia {
-    position: absolute;
-    top: 60%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-family: 'Shadows Into Light Two', cursive;
-    font-size: 24px; 
-    width: 30%;
-}
-/*Fourth*/
-.fourth {
-    position: relative;
-    width: 90%;
-    margin: 0 auto;
-}
-.fourth img {
-    width: 30%;
-}
-.rutgers {
-    position: absolute;
-    top: 60%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-family: 'Shadows Into Light Two', cursive;
-    font-size: 24px;
-    width: 30%;
-}
-/*Fifth*/
-.fifth {
-    position: relative;
-    width: 90%;
-    margin: 0 auto;
-}
-.fifth img {
-    width: 30%;
-}
-.rock {
-    position: absolute;
-    top: 60%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: 24px;
-    font-family: 'Shadows Into Light Two', cursive;   
-    width: 30%;
+  
+.auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
 }
 
 /* Header*/
@@ -210,16 +149,7 @@ hr {
     border-style: inset;
     border-width: 1px;
 } 
-/*Portfolio: Titles*/
-.titles {
-    width: 60%;
-    height: 500px;
-    padding: 40px;
-    margin: 130px 0px 70px 200px;
-    background-color: white; 
-    opacity: 0.7;
-    filter: alpha(opacity=70); 
-}
+
 
 /*Contact Page*/
 /*Forms: Box 1*/
@@ -269,17 +199,17 @@ input[type=t] {
 
 /*Media Query*/
 @media screen and (max-width: 959px) {
-    #wrapper {
+    #main-container {
         width: 100%;
     }
 }
 @media screen and (max-width: 640px) {
-    #wrapper {
+    #main-container {
         width: 100%;
     }
 }
 @media screen and (max-width: 320px) {
-    #wrapper {
+    #main-container {
         width: 320px;
     }
 }
